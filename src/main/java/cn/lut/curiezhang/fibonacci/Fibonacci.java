@@ -2,6 +2,7 @@ package cn.lut.curiezhang.fibonacci;
 
 public class Fibonacci {
 	public static int fib(int n) {
-		return 0;
+		if (n == 0) return 0;
+		return 1;
 	}
 }
